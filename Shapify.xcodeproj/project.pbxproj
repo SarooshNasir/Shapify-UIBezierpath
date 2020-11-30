@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2A83AEBE91C70BE5792C7C /* Pods_Shapify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097A207592376C9814925D7B /* Pods_Shapify.framework */; };
+		443D1702BEB2C2C757456902 /* Pods_ShapifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55345C6F4B402C2735385D /* Pods_ShapifyTests.framework */; };
+		6A6BD36C257517CB00DACE05 /* TriangleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BD36B257517CB00DACE05 /* TriangleDemo.swift */; };
+		6A6BD36E25751B9100DACE05 /* OvalDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BD36D25751B9100DACE05 /* OvalDemo.swift */; };
+		6A6BD37025751D6800DACE05 /* circleDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BD36F25751D6800DACE05 /* circleDemo.swift */; };
 		6AA084532563CA4900FDD0ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084522563CA4900FDD0ED /* AppDelegate.swift */; };
 		6AA084552563CA4900FDD0ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084542563CA4900FDD0ED /* SceneDelegate.swift */; };
 		6AA084572563CA4900FDD0ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084562563CA4900FDD0ED /* ViewController.swift */; };
@@ -14,6 +19,11 @@
 		6AA0845C2563CA4B00FDD0ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0845B2563CA4B00FDD0ED /* Assets.xcassets */; };
 		6AA0845F2563CA4B00FDD0ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA0845D2563CA4B00FDD0ED /* LaunchScreen.storyboard */; };
 		6AA0846A2563CA4B00FDD0ED /* ShapifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084692563CA4B00FDD0ED /* ShapifyTests.swift */; };
+		6AA084762564001A00FDD0ED /* CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084752564001A00FDD0ED /* CircleViewController.swift */; };
+		6AA084782564003500FDD0ED /* TriangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084772564003500FDD0ED /* TriangleViewController.swift */; };
+		6AA0847A2564005300FDD0ED /* OvalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA084792564005300FDD0ED /* OvalViewController.swift */; };
+		6AA0847C2564007800FDD0ED /* RectangleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0847B2564007800FDD0ED /* RectangleViewController.swift */; };
+		6AA0847E25641E6700FDD0ED /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA0847D25641E6700FDD0ED /* DemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		097A207592376C9814925D7B /* Pods_Shapify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shapify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA38DC9D34B049947C08E30 /* Pods-ShapifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapifyTests.debug.xcconfig"; path = "Target Support Files/Pods-ShapifyTests/Pods-ShapifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2C83EAA3C1C296481D2E11 /* Pods-Shapify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapify.release.xcconfig"; path = "Target Support Files/Pods-Shapify/Pods-Shapify.release.xcconfig"; sourceTree = "<group>"; };
+		394656F4CA06A4538A788945 /* Pods-Shapify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shapify.debug.xcconfig"; path = "Target Support Files/Pods-Shapify/Pods-Shapify.debug.xcconfig"; sourceTree = "<group>"; };
+		6A6BD36B257517CB00DACE05 /* TriangleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleDemo.swift; sourceTree = "<group>"; };
+		6A6BD36D25751B9100DACE05 /* OvalDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalDemo.swift; sourceTree = "<group>"; };
+		6A6BD36F25751D6800DACE05 /* circleDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleDemo.swift; sourceTree = "<group>"; };
 		6AA0844F2563CA4900FDD0ED /* Shapify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shapify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA084522563CA4900FDD0ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AA084542563CA4900FDD0ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +55,14 @@
 		6AA084652563CA4B00FDD0ED /* ShapifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA084692563CA4B00FDD0ED /* ShapifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapifyTests.swift; sourceTree = "<group>"; };
 		6AA0846B2563CA4B00FDD0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AA084742563CF6D00FDD0ED /* Shapify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shapify.entitlements; sourceTree = "<group>"; };
+		6AA084752564001A00FDD0ED /* CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleViewController.swift; sourceTree = "<group>"; };
+		6AA084772564003500FDD0ED /* TriangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleViewController.swift; sourceTree = "<group>"; };
+		6AA084792564005300FDD0ED /* OvalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalViewController.swift; sourceTree = "<group>"; };
+		6AA0847B2564007800FDD0ED /* RectangleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleViewController.swift; sourceTree = "<group>"; };
+		6AA0847D25641E6700FDD0ED /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
+		6E55345C6F4B402C2735385D /* Pods_ShapifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShapifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16723D0DEE71511349B5037 /* Pods-ShapifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShapifyTests.release.xcconfig"; path = "Target Support Files/Pods-ShapifyTests/Pods-ShapifyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2A83AEBE91C70BE5792C7C /* Pods_Shapify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443D1702BEB2C2C757456902 /* Pods_ShapifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +91,8 @@
 				6AA084512563CA4900FDD0ED /* Shapify */,
 				6AA084682563CA4B00FDD0ED /* ShapifyTests */,
 				6AA084502563CA4900FDD0ED /* Products */,
+				8F3A72FBB6D72C1295A5538C /* Pods */,
+				D2731A15CAA8ED74BE6C4849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +108,19 @@
 		6AA084512563CA4900FDD0ED /* Shapify */ = {
 			isa = PBXGroup;
 			children = (
+				6AA084742563CF6D00FDD0ED /* Shapify.entitlements */,
 				6AA084522563CA4900FDD0ED /* AppDelegate.swift */,
 				6AA084542563CA4900FDD0ED /* SceneDelegate.swift */,
 				6AA084562563CA4900FDD0ED /* ViewController.swift */,
+				6A6BD36B257517CB00DACE05 /* TriangleDemo.swift */,
+				6A6BD36F25751D6800DACE05 /* circleDemo.swift */,
+				6A6BD36D25751B9100DACE05 /* OvalDemo.swift */,
+				6AA0847D25641E6700FDD0ED /* DemoView.swift */,
 				6AA084582563CA4900FDD0ED /* Main.storyboard */,
+				6AA0847B2564007800FDD0ED /* RectangleViewController.swift */,
+				6AA084792564005300FDD0ED /* OvalViewController.swift */,
+				6AA084772564003500FDD0ED /* TriangleViewController.swift */,
+				6AA084752564001A00FDD0ED /* CircleViewController.swift */,
 				6AA0845B2563CA4B00FDD0ED /* Assets.xcassets */,
 				6AA0845D2563CA4B00FDD0ED /* LaunchScreen.storyboard */,
 				6AA084602563CA4B00FDD0ED /* Info.plist */,
@@ -99,6 +137,26 @@
 			path = ShapifyTests;
 			sourceTree = "<group>";
 		};
+		8F3A72FBB6D72C1295A5538C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				394656F4CA06A4538A788945 /* Pods-Shapify.debug.xcconfig */,
+				2D2C83EAA3C1C296481D2E11 /* Pods-Shapify.release.xcconfig */,
+				1AA38DC9D34B049947C08E30 /* Pods-ShapifyTests.debug.xcconfig */,
+				E16723D0DEE71511349B5037 /* Pods-ShapifyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2731A15CAA8ED74BE6C4849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				097A207592376C9814925D7B /* Pods_Shapify.framework */,
+				6E55345C6F4B402C2735385D /* Pods_ShapifyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA0846E2563CA4B00FDD0ED /* Build configuration list for PBXNativeTarget "Shapify" */;
 			buildPhases = (
+				32F6A8A0B98EBBED646FF5BF /* [CP] Check Pods Manifest.lock */,
 				6AA0844B2563CA4900FDD0ED /* Sources */,
 				6AA0844C2563CA4900FDD0ED /* Frameworks */,
 				6AA0844D2563CA4900FDD0ED /* Resources */,
+				36925D8845BDEF24B51CBF61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AA084712563CA4B00FDD0ED /* Build configuration list for PBXNativeTarget "ShapifyTests" */;
 			buildPhases = (
+				C196AA4FB4E36896044741E6 /* [CP] Check Pods Manifest.lock */,
 				6AA084612563CA4B00FDD0ED /* Sources */,
 				6AA084622563CA4B00FDD0ED /* Frameworks */,
 				6AA084632563CA4B00FDD0ED /* Resources */,
+				712EE71F6FA03EB8DE2E0096 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,13 +257,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32F6A8A0B98EBBED646FF5BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shapify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36925D8845BDEF24B51CBF61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shapify/Pods-Shapify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shapify/Pods-Shapify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shapify/Pods-Shapify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712EE71F6FA03EB8DE2E0096 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShapifyTests/Pods-ShapifyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShapifyTests/Pods-ShapifyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShapifyTests/Pods-ShapifyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C196AA4FB4E36896044741E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShapifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AA0844B2563CA4900FDD0ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6AA084572563CA4900FDD0ED /* ViewController.swift in Sources */,
+				6AA0847E25641E6700FDD0ED /* DemoView.swift in Sources */,
 				6AA084532563CA4900FDD0ED /* AppDelegate.swift in Sources */,
+				6A6BD37025751D6800DACE05 /* circleDemo.swift in Sources */,
+				6AA084762564001A00FDD0ED /* CircleViewController.swift in Sources */,
+				6A6BD36E25751B9100DACE05 /* OvalDemo.swift in Sources */,
+				6AA084782564003500FDD0ED /* TriangleViewController.swift in Sources */,
+				6AA0847A2564005300FDD0ED /* OvalViewController.swift in Sources */,
+				6A6BD36C257517CB00DACE05 /* TriangleDemo.swift in Sources */,
+				6AA0847C2564007800FDD0ED /* RectangleViewController.swift in Sources */,
 				6AA084552563CA4900FDD0ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,9 +511,13 @@
 		};
 		6AA0846F2563CA4B00FDD0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394656F4CA06A4538A788945 /* Pods-Shapify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shapify/Shapify.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Shapify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -370,6 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Shapify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -377,9 +533,13 @@
 		};
 		6AA084702563CA4B00FDD0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2C83EAA3C1C296481D2E11 /* Pods-Shapify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Shapify/Shapify.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Shapify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +547,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Shapify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -394,6 +555,7 @@
 		};
 		6AA084722563CA4B00FDD0ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA38DC9D34B049947C08E30 /* Pods-ShapifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +577,7 @@
 		};
 		6AA084732563CA4B00FDD0ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16723D0DEE71511349B5037 /* Pods-ShapifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
